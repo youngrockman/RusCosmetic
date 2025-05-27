@@ -146,3 +146,4 @@ C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\obj\Debug\net8.0\r
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\obj\Debug\net8.0\Russian_cosmetic.pdb
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\obj\Debug\net8.0\Russian_cosmetic.genruntimeconfig.cache
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\obj\Debug\net8.0\ref\Russian_cosmetic.dll
+C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\obj\Debug\net8.0\Russian_cosmetic.sourcelink.json

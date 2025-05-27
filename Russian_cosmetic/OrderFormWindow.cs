@@ -15,7 +15,7 @@ namespace Russian_cosmetic;
 public partial class OrderFormWindow : Window
 {
     private readonly int _employeeId;
-    private List<Service> _selectedServices = new List<Service>();
+    public List<Service> _selectedServices = new List<Service>();
 
     public OrderFormWindow()
     {
@@ -95,8 +95,8 @@ public partial class OrderFormWindow : Window
             CalculateTotal();
         }
     }
-    
-    private void CalculateTotal()
+
+    public void CalculateTotal()
     {
         if (_selectedServices.Any())
         {
@@ -121,9 +121,9 @@ public partial class OrderFormWindow : Window
         ServiceListBox.ItemsSource = null;
         ServiceListBox.ItemsSource = _selectedServices;
     }
-    
-    
-     private async void CreateOrderButton_Click(object sender, RoutedEventArgs e)
+
+
+    public async void CreateOrderButton_Click(object sender, RoutedEventArgs e)
     {
         
         // Проверка на заполнение обязательных полей

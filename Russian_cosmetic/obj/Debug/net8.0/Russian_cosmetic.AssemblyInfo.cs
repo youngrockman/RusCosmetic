@@ -13,10 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Russian_cosmetic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d3f00e12b923c07ea1e69e9003129657feec11")]
 [assembly: System.Reflection.AssemblyProductAttribute("Russian_cosmetic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Russian_cosmetic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("LibaryTests")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

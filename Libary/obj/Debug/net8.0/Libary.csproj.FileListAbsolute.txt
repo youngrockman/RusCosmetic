@@ -9,3 +9,4 @@ C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\Libary.dll
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\refint\Libary.dll
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\Libary.pdb
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\ref\Libary.dll
+C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\Libary.sourcelink.json
