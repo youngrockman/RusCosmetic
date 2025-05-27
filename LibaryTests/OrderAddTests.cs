@@ -127,8 +127,8 @@ public class OrderFormWindowTests
         _window.CreateOrderButton_Click(null, new RoutedEventArgs());
 
       
-        Assert.IsFalse(_window.ClientServiceErrorBlock.IsVisible, "Ожидалось отсутствие ошибки клиента/услуг");
-        Assert.IsFalse(_window.IncorrentOrderNumberBlock.IsVisible, "Ожидалось отсутствие ошибки номера заказа");
+        Assert.IsFalse(_window.ClientServiceErrorBlock.IsVisible);
+        Assert.IsFalse(_window.IncorrentOrderNumberBlock.IsVisible);
     }
 
 }
