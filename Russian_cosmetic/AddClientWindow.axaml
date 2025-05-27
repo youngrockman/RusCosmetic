@@ -1,0 +1,86 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Russian_cosmetic.AddClientWindow"
+        Icon="C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\bin\Debug\net8.0\logo.ico"
+        Title="Окно добавление клиента">
+     <StackPanel Margin="20" Spacing="10">
+
+    
+    <TextBlock Text="Тип клиента:"/>
+    <StackPanel Orientation="Horizontal" Spacing="10">
+      <RadioButton
+        x:Name="RbIndividual"
+        Content="Физ. лицо"
+        GroupName="ClientType"
+        IsChecked="True"
+        Checked="Type_Checked"
+        Unchecked="Type_Checked"/>
+
+      <RadioButton
+        x:Name="RbLegalentity"
+        Content="Юр. лицо"
+        GroupName="ClientType"
+        Checked="Type_Checked"
+        Unchecked="Type_Checked"/>
+    </StackPanel>
+
+   
+    <StackPanel x:Name="PanelIndividual" Spacing="6">
+      <TextBlock Text="Код клиента"/>
+      <TextBox   x:Name="TbIndClientCode"/>
+      <TextBlock Text="ФИО"/>
+      <TextBox   x:Name="TbFullName"/>
+      <TextBlock Text="Паспорт"/>
+      <TextBox   x:Name="TbPassport"/>
+      <TextBlock Text="Дата рождения"/>
+      <DatePicker x:Name="DpBirthDate"/>
+      <TextBlock Text="Адрес"/>
+      <TextBox   x:Name="TbIndAddress"/>
+      <TextBlock Text="Email"/>
+      <TextBox   x:Name="TbIndEmail"/>
+      <TextBlock Text="Пароль"/>
+      <TextBox x:Name="PbIndPassword"/>
+    </StackPanel>
+
+    
+    <StackPanel x:Name="PanelLegalentity" Spacing="6" IsVisible="False">
+      <TextBlock Text="Код клиента"/>
+      <TextBox   x:Name="TbLegClientCode"/>
+      <TextBlock Text="Компания"/>
+      <TextBox   x:Name="TbCompanyName"/>
+      <TextBlock Text="ИНН"/>
+      <TextBox   x:Name="TbInn"/>
+      <TextBlock Text="Счёт"/>
+      <TextBox   x:Name="TbAccount"/>
+      <TextBlock Text="БИК"/>
+      <TextBox   x:Name="TbBik"/>
+      <TextBlock Text="Директор"/>
+      <TextBox   x:Name="TbDirector"/>
+      <TextBlock Text="Контактное лицо"/>
+      <TextBox   x:Name="TbContactPerson"/>
+      <TextBlock Text="Телефон"/>
+      <TextBox   x:Name="TbContactPhone"/>
+      <TextBlock Text="Email"/>
+      <TextBox   x:Name="TbLegEmail"/>
+      <TextBlock Text="Пароль"/>
+      <TextBox x:Name="PbLegPassword"/>
+      <TextBlock Text="Адрес"/>
+      <TextBox x:Name="AddresBox"/>
+    </StackPanel>
+
+    
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20" Margin="10,20,10,0">
+      <Button Content="Сохранить" Click="SaveButton_Click" Width="100"/>
+      <Button Content="Отмена"   Click="CancelButton_Click" Width="100"/>
+    </StackPanel>
+
+    
+    <TextBlock x:Name="ErrorBlock"
+               Foreground="Red"
+               TextWrapping="Wrap"
+               IsVisible="False"/>
+  </StackPanel>
+</Window>

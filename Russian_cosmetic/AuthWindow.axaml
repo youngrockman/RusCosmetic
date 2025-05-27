@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Russian_cosmetic.AuthWindow"
+        Icon="C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\bin\Debug\net8.0\logo.ico"
+        Title="Окно авторизации">
+    
+        <DockPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" DockPanel.Dock="Top" Margin="100">
+                <TextBlock Text="Добро пожаловать в ЗАО «Русская косметика»" FontSize="14"/>
+        </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" Margin="20" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button Content="Авторизироваться" Margin="5" Width="150" Click="Auth_ButtonClick"/>
+                        <Button Content="Выйти" Margin="5" Width="150"  Click="Exit_ButtonClick"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Login" Width="200"/>
+                        <TextBox x:Name="LoginBox"  Width="200" Margin="5" />
+                        <TextBlock Text="Password" Width="200" />
+                        <TextBox x:Name="PasswordBox"  Width="200" Margin="0,0,0,10"/>
+                        <TextBlock Text="Введен неверный логин или пароль" x:Name="ErrorBlock" IsVisible="False" HorizontalAlignment="Center"/>
+                </StackPanel>
+        </DockPanel>
+        
+</Window>

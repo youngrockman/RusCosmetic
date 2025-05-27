@@ -1,0 +1,63 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Russian_cosmetic.OrderFormWindow"
+        x:CompileBindings="False"
+        Icon="C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\bin\Debug\net8.0\logo.ico"
+        Title="Форма заказа">
+    
+   <DockPanel>
+       <StackPanel VerticalAlignment="Center" Margin="10" Orientation="Vertical" DockPanel.Dock="Top">
+           <TextBlock Text="Номер заказа" HorizontalAlignment="Center"/>
+           <AutoCompleteBox x:Name="IdBox" Width="200" Margin="0,0,0,5" Watermark="Введите номер заказа"/>
+           <TextBlock Text="Выберите клиента" HorizontalAlignment="Center"/>
+           <ComboBox x:Name="ClientsBox"
+                     Width="200"
+                     Margin="0,5,0,0"
+                     HorizontalAlignment="Center"
+                     SelectionChanged="ClientsBox_SelectionChanged">
+               <ComboBox.ItemTemplate>
+                   <DataTemplate>
+                       <TextBlock Text="{Binding DisplayName}"/>
+                   </DataTemplate>
+               </ComboBox.ItemTemplate>
+           </ComboBox>
+
+           <TextBlock x:Name="IndividualsBlock" IsVisible="False" Margin="5" HorizontalAlignment="Center"/>
+           <TextBlock x:Name="LegalentityBlock" IsVisible="False" Margin="5" HorizontalAlignment="Center"/>
+           <TextBlock Text="Выберите услугу" HorizontalAlignment="Center"/>
+           <ComboBox x:Name="ServiceBox" Width="200" Margin="5" HorizontalAlignment="Center"
+                     DisplayMemberBinding="{Binding ServiceName}"/>
+           <Button Content="Добавить в заказ" Margin="5" Width="200" HorizontalAlignment="Center"
+                   Click="AddServiceButton_Click"/>
+           <TextBlock Text="Выбранные услуги:" HorizontalAlignment="Center"/>
+           <ListBox x:Name="ServiceListBox" Width="300" Height="150" Margin="5">
+               <ListBox.ItemTemplate>
+                   <DataTemplate>
+                       <StackPanel Orientation="Horizontal">
+                           <TextBlock Text="{Binding ServiceName}" Width="200"/>
+                           <TextBlock Text="{Binding StandardPrice, StringFormat={}{0:C}}"/>
+                       </StackPanel>
+                   </DataTemplate>
+               </ListBox.ItemTemplate>
+           </ListBox>
+           <TextBlock Margin="0,5,0,0" Text="Общее время выполнения" HorizontalAlignment="Center"/>
+           <TextBox x:Name="ExecutionTimeBox" Width="200" IsReadOnly="True"/>
+           <TextBlock Margin="0,5,0,0" Text="Общая стоимость" HorizontalAlignment="Center"/>
+           <TextBox x:Name="TotalPriceBox" Width="200" IsReadOnly="True"/>
+       </StackPanel>
+       <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5" DockPanel.Dock="Bottom">
+           <Button Content="Назад" Margin="5" Click="Back_ButtonClick"/>
+           <Button Content="Создать" Margin="5" Click="CreateOrderButton_Click"/>
+           <Button Content="Добавить клиента" Margin="5" Click="AddClient_ButtonClick"/>
+       </StackPanel>
+       <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical" Margin="5" VerticalAlignment="Center">
+           <TextBlock Text="Некорректный номер заказа" HorizontalAlignment="Center" IsVisible="False" x:Name="IncorrentOrderNumberBlock"/>
+           <TextBlock Text="Выберите клиента и хотя бы одну услугу" HorizontalAlignment="Center" IsVisible="False" x:Name="ClientServiceErrorBlock"/>
+           <TextBlock Text="Заказ успещно создан" HorizontalAlignment="Center" IsVisible="False" x:Name="CreateOrderBlock"/>
+       </StackPanel>
+   </DockPanel>
+
+</Window>
