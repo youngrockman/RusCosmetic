@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Russian_cosmetic/AddClientWindow.axaml" value="Russian_cosmetic/Russian_cosmetic.csproj" />
+        <entry key="Russian_cosmetic/AuthWindow.axaml" value="Russian_cosmetic/Russian_cosmetic.csproj" />
+        <entry key="Russian_cosmetic/OrderFormWindow.axaml" value="Russian_cosmetic/Russian_cosmetic.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\LibaryTests\\LibaryTests.csproj": {}
+    "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\LibaryTests\\LibaryTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\LibaryTests\\LibaryTests.csproj": {
+    "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\LibaryTests\\LibaryTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\LibaryTests\\LibaryTests.csproj",
+        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\LibaryTests\\LibaryTests.csproj",
         "projectName": "LibaryTests",
-        "projectPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\LibaryTests\\LibaryTests.csproj",
-        "packagesPath": "C:\\Users\\IVAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\LibaryTests\\obj\\",
+        "projectPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\LibaryTests\\LibaryTests.csproj",
+        "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\LibaryTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IVAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\Libary.csproj": {
-                "projectPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\Libary.csproj"
+              "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\Libary.csproj": {
+                "projectPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\Libary.csproj"
               },
-              "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj": {
-                "projectPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj"
+              "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj": {
+                "projectPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj"
               }
             }
           }
@@ -103,20 +102,20 @@
         }
       }
     },
-    "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\Libary.csproj": {
+    "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\Libary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\Libary.csproj",
+        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\Libary.csproj",
         "projectName": "Libary",
-        "projectPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\Libary.csproj",
-        "packagesPath": "C:\\Users\\IVAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Libary\\obj\\",
+        "projectPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\Libary.csproj",
+        "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Libary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IVAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -125,7 +124,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -169,20 +167,20 @@
         }
       }
     },
-    "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj": {
+    "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj",
+        "projectUniqueName": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj",
         "projectName": "Russian_cosmetic",
-        "projectPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj",
-        "packagesPath": "C:\\Users\\IVAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IVAN\\RiderProjects\\Russian_cosmetic\\Russian_cosmetic\\obj\\",
+        "projectPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\Russian_cosmetic.csproj",
+        "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prdb\\RiderProjects\\RusCosmetic\\Russian_cosmetic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IVAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -191,7 +189,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

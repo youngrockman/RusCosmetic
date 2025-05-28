@@ -15,20 +15,20 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Russian_cosmetic
-build_property.ProjectDir = C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\
+build_property.ProjectDir = C:\Users\prdb\RiderProjects\RusCosmetic\Russian_cosmetic\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/IVAN/RiderProjects/Russian_cosmetic/Russian_cosmetic/AddClientWindow.axaml]
+[C:/Users/prdb/RiderProjects/RusCosmetic/Russian_cosmetic/AddClientWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/IVAN/RiderProjects/Russian_cosmetic/Russian_cosmetic/App.axaml]
+[C:/Users/prdb/RiderProjects/RusCosmetic/Russian_cosmetic/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/IVAN/RiderProjects/Russian_cosmetic/Russian_cosmetic/AuthWindow.axaml]
+[C:/Users/prdb/RiderProjects/RusCosmetic/Russian_cosmetic/AuthWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/IVAN/RiderProjects/Russian_cosmetic/Russian_cosmetic/OrderFormWindow.axaml]
+[C:/Users/prdb/RiderProjects/RusCosmetic/Russian_cosmetic/OrderFormWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

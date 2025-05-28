@@ -10,3 +10,15 @@ C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\refint\Liba
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\Libary.pdb
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\ref\Libary.dll
 C:\Users\IVAN\RiderProjects\Russian_cosmetic\Libary\obj\Debug\net8.0\Libary.sourcelink.json
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\bin\Debug\net8.0\Libary.deps.json
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\bin\Debug\net8.0\Libary.dll
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\bin\Debug\net8.0\Libary.pdb
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.AssemblyInfoInputs.cache
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.AssemblyInfo.cs
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.csproj.CoreCompileInputs.cache
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.sourcelink.json
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.dll
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\refint\Libary.dll
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\Libary.pdb
+C:\Users\prdb\RiderProjects\RusCosmetic\Libary\obj\Debug\net8.0\ref\Libary.dll

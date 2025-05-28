@@ -5,7 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Russian_cosmetic.OrderFormWindow"
         x:CompileBindings="False"
-        Icon="C:\Users\IVAN\RiderProjects\Russian_cosmetic\Russian_cosmetic\bin\Debug\net8.0\logo.ico"
+        Icon="C:\Users\prdb\RiderProjects\RusCosmetic\Russian_cosmetic\bin\Debug\net8.0\logo.ico"
         Title="Форма заказа">
     
    <DockPanel>
